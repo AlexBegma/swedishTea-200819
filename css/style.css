@@ -53,3 +53,135 @@ body {
 	text-align: right;
 	margin-top: 5px;
 }
+
+.top {
+	margin-bottom: 95px;
+}
+
+.top__images {
+	background-image: url('../images/background.jpg');
+	background-position: center center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	max-width: 1720px;
+	width: 100%;
+	min-height: 545px;
+	margin: 0 auto;
+}
+
+.top__wrapper {
+	margin-top: -440px;
+}
+
+.top__inner {
+	display: flex;
+	justify-content: space-between;
+}
+
+.top__inner-img {
+	margin-left: 125px;
+}
+
+.top__inner-form {
+	max-width: 570px;
+	width: 100%;
+}
+
+.top__inner-suptitle {
+	margin-top: 70px;
+	margin-bottom: 25px;
+	font-weight: 600;
+	font-size: 14px;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+	color: #fff;
+}
+
+.top__inner-title {
+	font-size: 60px;
+	margin-bottom: 40px;
+	font-weight: 600;
+	color: #fff;
+	margin-bottom: 40px;
+}
+
+.top__inner-text {
+	font-size: 18px;
+	line-height: 24px;
+	color: #ffffff;
+	font-weight: 400;
+	margin-bottom: 75px;
+}
+
+.top-form {
+	background-color: #fff;
+	padding: 20px;
+}
+
+.top-form form {
+	border: 1px solid #c8dcba;
+	position: relative;
+}
+
+.top-form__inner {
+	padding: 50px 50px 120px 50px;
+}
+
+.top-form__title {
+	font-size: 14px;
+	letter-spacing: 1px;
+	line-height: 22px;
+	color: #303030;
+	font-weight: 700;
+	max-width: 190px;
+	width: 100%;
+	height: 40px;
+	margin-bottom: 35px;
+	text-transform: uppercase;
+}
+
+.top-form input {
+	padding: 14px 0px;
+	border: none;
+	border-bottom: 1px solid #c8dcba;
+	outline: none;
+	font-size: 14px;
+	color: #9a9a9a;
+	font-weight: 400;
+	width: 195px;
+}
+
+.top-form input + input {
+	margin-left: 30px;
+}
+
+.top-form input::placeholder {
+	color: #c8dcba;
+	font-weight: 400;
+}
+
+.top-form button {
+	position: absolute;
+	right: 0;
+	bottom: 0;
+	padding: 22px 110px 22px 75px;
+	border: none;
+	outline: none;
+	color: #fff;
+	font-size: 14px;
+	letter-spacing: 1px;
+	font-weight: 700;
+	text-transform: uppercase;
+	background-color: #7eb252;
+	cursor: pointer;
+}
+
+.top-form button::after {
+	content: "";
+	background-image: url('../images/right-way.png');
+	width: 32px;
+	height: 10px;
+	position: absolute;
+	right: 60px;
+	top: 25px;
+}
