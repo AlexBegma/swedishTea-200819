@@ -1,10 +1,16 @@
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
+}
+
 body {
 	font-family: 'Montserrat', sans-serif;
 	font-weight: 400;
 }
 
 .container {
-	max-width: 1170px;
+	max-width: 1200px;
 	padding-right: 15px;
 	padding-left: 15px;
 	margin: 0 auto;
@@ -110,7 +116,7 @@ body {
 	line-height: 24px;
 	color: #ffffff;
 	font-weight: 400;
-	margin-bottom: 75px;
+	margin-bottom: 85px;
 }
 
 .top-form {
@@ -184,4 +190,47 @@ body {
 	position: absolute;
 	right: 60px;
 	top: 25px;
+}
+
+.advantages__inner {
+	display: flex;
+	justify-content: space-around;
+}
+
+.advantages__item {
+	width: 230px;
+	height: 170px;
+	padding-left: 40px;
+	padding-top: 35px;
+	position: relative;
+}
+
+.advantages__item::before {
+	content: "";
+	position: absolute;
+	width: 25px;
+	height: 25px;
+	border-radius: 50%;
+	border: 5px solid rgba(126, 178, 82, .3);
+	top: 0;
+	left: 0;
+}
+
+.advantages__item-number {
+	font-size: 18px;
+	color: #a4c58c;
+	font-weight: 600;
+	border-bottom: 3px solid #a4c58c;
+	display: inline-block;
+	margin-bottom: 20px;
+}
+
+.advantages__item-number span {
+	font-size: 30px;
+	line-height: 24px;
+}
+
+.advantages__item-text {
+font-size: 16px;
+line-height: 24px;
 }
