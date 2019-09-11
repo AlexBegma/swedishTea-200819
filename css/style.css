@@ -449,15 +449,15 @@ body {
 	background-image: url('../images/popular.jpg');
 	max-width: 1720px;
 	min-height: 645px;
-	margin:  0 auto;
 	background-repeat: no-repeat;
+	background-size: 51%;
 }
 
 .popular__inner {
 	display: flex;
 	align-items: flex-end;
-	right: 30px;
-	height: 732px;
+	justify-content: flex-end;
+	height: 594px;
 }
 
 .popular__box {
@@ -516,38 +516,40 @@ body {
 }
 
 .popular__right {
-	height: 732px;
+	max-width: 515px;
+	width: 100%;
+	height: 590px;
 }
 
 .popular__right-title {
-	font-size: 40px;
-	line-height: 50px;
+	font-size: 30px;
+	line-height: 30px;
 	color: #303030;
 	font-weight: 700;
-	padding-top: 40px;
+	padding-top: 25px;
 	max-width: 475px;
-	margin-bottom: 40px;
+	margin-bottom: 20px;
 }
 
 .popular__right-subtitle {
 	font-size: 14px;
 	letter-spacing: 1px;
-	line-height: 20px;
+	line-height: 16px;
 	color: #303030;
 	font-weight: 700;
 	text-transform: uppercase;
-	margin-bottom: 50px;
+	margin-bottom: 20px;
 }
 
 .popular__right-list {
-	line-height: 22px;
+	line-height: 20px;
 	color: #303030;
 	font-weight: 400;
 	list-style: none;
 }
 
 .popular__right-list li {
-	margin-bottom: 45px;
+	margin-bottom: 35px;
 	padding-left: 35px;
 	position: relative;
 }
