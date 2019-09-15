@@ -465,11 +465,6 @@ body {
 }
 
 /* --- <section class="popular"> --- */
-
-.popular {
-	margin-bottom: 200px;
-}
-
 .popular__wrapper {
 	background-image: url('../images/popular.jpg');
 	min-height: 645px;
@@ -594,10 +589,6 @@ body {
 }
 
 /* --- section class="history" --- */
-.history {
-	margin-bottom: 70px;
-}
-
 .history__wrapper {
 	background-image: url('../images/alonso.png');
 	background-position: right;
@@ -739,3 +730,87 @@ body {
 .autor span {
 	color: #a8c48c;
 }
+
+/* --- section class="advantages" --- */
+.advantages {
+
+}
+
+.advantages__title {
+	font-size: 40px;
+	line-height: 50px;
+	color: #303030;
+	font-weight: 700;
+	max-width: 520px;
+	width: 100%;
+	margin-bottom: 50px;
+}
+
+.advantages__wrapper {
+	background-color: #f6f9f3;
+	height: 380px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	align-items: center;
+	position: relative;
+}
+
+.advantages__inner {
+	padding: 20px;
+	background-color: #fff;
+	max-width: 1010px;
+	position: absolute;
+	top: -50px;
+	padding: 20px;
+}
+
+.advantage {
+	width: 310px;
+	height: 310px;
+	background-color: rgba(164,197,140,0);
+	border: 1px solid #a4c58c;
+	text-align: center;
+	background-color: #fff;
+	position: relative;
+}
+
+.advantage.advantage-2 {
+	margin-left: 20px;
+	margin-right: 20px;
+}
+
+.advantage__number {
+	font-size: 150px;
+	letter-spacing: 8px;
+	line-height: 20px;
+	color: #f7f9f3;
+	font-weight: 900;
+	position: absolute;
+	bottom: 155px;
+	left: 55px;
+}
+
+.advantage__content {
+
+}
+
+.advantage__content-image {
+	position: absolute;
+	bottom: 130px;
+	left: 100px;
+}
+
+.advantage__content-title {
+	font-size: 14px;
+	letter-spacing: 1px;
+	line-height: 20px;
+	color: #303030;
+	font-weight: 700;
+	text-transform: uppercase;
+	position: absolute;
+	bottom: 65px;
+	left: 0;
+	width: 310px;
+}
+
