@@ -1,0 +1,147 @@
+@media all and (max-width: 1050px) {
+	.top__inner-img {
+		margin-left: 40px;
+	}
+}
+
+@media all and (max-width: 992px) {
+	.top__inner-form {
+		position: absolute;
+		right: 15px;
+		display: flex;
+		flex-direction: column;
+		align-items: flex-end;
+	}
+	.top__inner-suptitle,
+	.top__inner-title,
+	.top__inner-text {
+		width: 280px;
+		margin-right: 50px;
+	}
+	.top__inner-title {
+		font-size: 50px;
+		line-height: 50px;
+	}
+	.top__inner-text {
+		font-size: 16px;
+	}
+}
+
+@media all and (max-width: 768px) {
+	.header__text {
+		font-size: 14px;
+	}
+	.header__phone,
+	.footer__phone {
+		font-size:16px;
+	}
+	.top__inner-suptitle {
+		margin-top: 25px;
+	}
+	.top__inner-text {
+		margin-bottom: 45px;
+	}
+}
+
+@media all and (max-width: 760px) {
+	.top__inner-img img {
+		width: 200px;
+	}
+	.top-form {
+		padding: 10px;
+	}
+	.top-form__inner {
+		padding: 20px 20px 70px 20px;
+	}
+	.top-form__title {
+		height: 15px;
+	}
+}
+
+@media all and (max-width: 700px) {
+	.header__text {
+		display: none;
+	}
+}
+
+@media all and (max-width: 640px) {
+	.top__wrapper {
+		margin-top: -550px;
+	}
+	.top__images {
+		height: 600px;
+	}
+	.top__inner {
+		flex-direction: column;
+		align-items: center;
+	}
+	.top__inner-form {
+		left: 15px;
+		position: static;
+		text-align: center;
+		align-items: center;
+	}
+	.top__inner-img {
+		margin-left: 0;
+		order: 1;
+	}
+	.top__inner-img img {
+		width: 150px;
+	}
+	.mobile__link-btn {
+		display: block;
+	}
+	.top__inner-text,
+	.top-form {
+		display: none;
+	}
+	.top__inner-suptitle,
+	.top__inner-title,
+	.top__inner-text {
+		width: 100%;
+		margin-right: 0;
+	}
+	.mobile__link-btn {
+		padding: 22px 10px 22px 10px;
+		display: block;
+		width: 100%;
+		text-align: center;
+	}
+}
+
+@media all and (max-width: 576px) {
+	.top__wrapper {
+		margin-top: -620px;
+	}
+}
+
+@media all and (max-width: 576px) {
+
+}
+
+@media all and (max-width: 480px) {
+	.header__phone {
+		font-size: 14px;
+	}
+	.header__phone a::before,
+	.header__phone-text {
+		display: none;
+	}
+	.header__logo img {
+		width: 110px;
+	}
+}
+
+@media all and (max-width: 360px) {
+	.top__images {
+		min-height: 375px;
+	}
+	.top__inner-title {
+		font-size: 36px;
+		line-height: 40px;
+	}
+}
+
+@media all and (max-width: 320px) {
+
+}

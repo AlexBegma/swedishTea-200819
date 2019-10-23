@@ -44,6 +44,10 @@ body {
 	color: #9a9a9a;
 }
 
+.mobile__link-btn {
+	display: none;
+}
+
 .header__phone,
 .footer__phone {
 	font-weight: 500;
@@ -92,6 +96,7 @@ body {
 	max-width: 1720px;
 	width: 100%;
 	min-height: 545px;
+	height: 100%;
 	margin: 0 auto;
 }
 
@@ -106,6 +111,7 @@ body {
 	-webkit-box-pack: justify;
 	-ms-flex-pack: justify;
 	justify-content: space-between;
+	position: relative;
 }
 
 .top__inner-img {
@@ -129,6 +135,7 @@ body {
 
 .top__inner-title {
 	font-size: 60px;
+	line-height: 60px;
 	margin-bottom: 40px;
 	font-weight: 600;
 	color: #fff;
@@ -216,11 +223,8 @@ body {
 	bottom: 0;
 }
 
-.top-form button::after {
-	
-}
-
-.form__btn {
+.form__btn,
+.mobile__link-btn {
 	padding: 22px 110px 22px 75px;
 	border: none;
 	outline: none;
@@ -229,12 +233,14 @@ body {
 	letter-spacing: 1px;
 	font-weight: 700;
 	text-transform: uppercase;
+	text-decoration: none;
 	background-color: #7eb252;
 	cursor: pointer;
 	position: relative;
 }
 
-.form__btn:hover {
+.form__btn:hover,
+.mobile__link-btn:hover {
 	background-color: #699e3c;
 }
 
