@@ -1,3 +1,72 @@
+@media all and (max-width: 1640px) {
+	.popular__right {
+		background-color: #fff;
+		padding-left: 15px;
+		padding-right: 0;
+	}
+}
+
+@media all and (max-width: 1400px) {
+	.popular__wrapper {
+		background-size: 750px;
+	}
+}
+
+@media all and (max-width: 1230px) {
+	.popular__wrapper {
+		background-image: none;
+	}
+	.popular__inner {
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		max-height: 400px;
+		height: 100%;
+		margin-bottom: 30px;
+	}
+	.popular__right {
+		padding-left: 0;
+		max-width: 800px;
+		width: 100%;
+		order: 0;
+	}
+	.mobile-bg {
+		display: block;
+		background-image: url('../images/popular.jpg');
+		background-position: center;
+		background-size: cover;
+		background-repeat: no-repeat;
+		min-height: 645px;
+		height: 100%;
+	}
+	.popular {
+		position: relative;
+	}
+	.popular__box {
+		order: 1;
+		max-width: 600px;
+		position: absolute;
+		z-index: 5;
+		bottom: -87px;
+	}
+	.popular__box-text {
+		margin-right: 0;
+	}
+	.popular__right-title {
+		max-width: 800px;
+		width: 100%;
+		text-align: center;
+	}
+	.popular__link {
+		max-width: 560px;
+		width: 100%;
+	}
+
+	.history {
+		margin-top: 70px;
+	}
+}
+
 @media all and (max-width: 1050px) {
 	.top__inner-img {
 		margin-left: 40px;
@@ -36,6 +105,7 @@
 		margin-left: 0px;
 	}
 }
+
 @media all and (max-width: 860px) {
 	.advantages__inner {
 		padding-left: 40px;
@@ -172,6 +242,10 @@
 		width: 100%;
 		text-align: center;
 	}
+
+	.popular__right-title {
+		font-size: 25px;
+	}
 }
 
 @media all and (max-width: 582px) {
@@ -179,6 +253,12 @@
 		margin-bottom: 40px;
 	}
 
+	.popular__right {
+		padding: 0 10px;
+	}
+	.popular__box {
+		text-align: center;
+	}
 }
 
 @media all and (max-width: 576px) {
@@ -203,6 +283,21 @@
 		min-width: 320px;
 		width: 100%;
 	}
+
+	.popular__inner {
+		margin-bottom: 35px;
+		max-height: 585px;
+	}
+	.popular__right-title {
+		font-size: 22px;
+	}
+	.popular__right {
+		margin-bottom: 15px;
+		margin-top: 125px;
+	}
+	.popular__box-link {
+		font-size: 12px;
+	}
 }
 
 @media all and (max-width: 480px) {
@@ -224,6 +319,13 @@
 	.advantages__item::before {
 		display: none;
 	}
+
+	.list {
+		margin-bottom: 120px;
+	}
+	.list__tabs {
+		margin-bottom: 0;
+	}
 }
 
 @media all and (max-width: 360px) {
@@ -234,6 +336,14 @@
 		font-size: 36px;
 		line-height: 40px;
 	}
+	.popular__inner {
+		max-height: 680px;
+		height: 100%;
+		margin-bottom: 30px;
+	}
+	.popular__box-text {
+    border: none;
+    padding: 10px;
 }
 
 @media all and (max-width: 320px) {

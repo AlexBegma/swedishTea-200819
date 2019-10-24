@@ -88,6 +88,10 @@ body {
 	margin-bottom: 95px;
 }
 
+.mobile-bg {
+	display: none;
+}
+
 .top__images {
 	background-image: url('../images/background.jpg');
 	background-position: center center;
@@ -624,7 +628,7 @@ body {
 .popular__right {
 	max-width: 515px;
 	width: 100%;
-	height: 590px;
+	height: 600px;
 }
 
 .popular__right-title {
