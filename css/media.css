@@ -244,6 +244,17 @@
 		width: 100%;
 		max-height: 885px;
 	}
+
+	.quote__inner,
+	.quote__inner p {
+		max-width: 600px;
+		width: 100%;
+		height: auto;
+	}
+	.quote__inner p {
+		font-size: 20px;
+		line-height: 35px;
+	}
 }
 
 @media all and (max-width: 760px) {
@@ -403,6 +414,16 @@
 	.history__inner {
 		padding-left: 15px;
 		padding-right: 15px;
+	}
+
+	.quote__inner p {
+		font-size: 18px;
+		line-height: 30px;
+	}
+	.autor {
+		font-size: 18px;
+		line-height: 30px;
+		padding: 0 20px;
 	}
 }
 
