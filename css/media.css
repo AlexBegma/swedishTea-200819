@@ -107,6 +107,31 @@
 	.history__form::after {
 		bottom: 0;
 	}
+
+	.vantages__title {
+		text-align: center;
+		margin: 0 auto;
+		min-height: 200px;
+		height: 100%;
+	}
+	.vantages__inner {
+		top: 0;
+	}
+	.vantage__content {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+	.vantage {
+		width: 33.33%;
+		margin-left: 7px;
+		margin-right: 7px;
+		min-height: 275px;
+	}
+	.vantage__content-title {
+		max-width: 240px;
+		width: 100%;
+	}
 }
 
 @media all and (max-width: 992px) {
@@ -174,6 +199,16 @@
 	.history__form input {
 		max-width: 370px;
 		width: 100%;
+	}
+
+	.vantage {
+		height: 275px;
+	}
+	.vantage__number {
+		font-size: 110px;
+	}
+	.vantages__wrapper {
+		height: 315px;
 	}
 }
 
@@ -255,6 +290,10 @@
 		font-size: 20px;
 		line-height: 35px;
 	}
+
+	.vantages__title {
+		font-size: 30px;
+	}
 }
 
 @media all and (max-width: 760px) {
@@ -275,6 +314,27 @@
 @media all and (max-width: 700px) {
 	.header__text {
 		display: none;
+	}
+
+	.vantages {
+		
+	}
+	.vantages__wrapper {
+		min-height: 865px;
+	}
+	.vantages__inner {
+		display: block;
+	}
+	.vantage.vantage-2,
+	.vantage {
+		margin-left: 0;
+		margin-right: 0;
+	}
+	.vantage {
+		max-width: 100%;
+		width: 100%;
+		text-align: center;
+		border: none;
 	}
 }
 
@@ -377,6 +437,10 @@
 	.popular__box-link {
 		font-size: 12px;
 	}
+
+	.vantage {
+		height: 225px;
+	}
 }
 
 @media all and (max-width: 480px) {
@@ -424,6 +488,10 @@
 		font-size: 18px;
 		line-height: 30px;
 		padding: 0 20px;
+	}
+
+	.vantages__title {
+		font-size: 22px;
 	}
 }
 
