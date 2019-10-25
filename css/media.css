@@ -184,6 +184,23 @@
 		max-width: 240px;
 		width: 100%;
 	}
+
+	.footer__inner {
+		flex-direction: column;
+		min-height: 105px;
+		height: 100%;
+	}
+	.footer__logo,
+	.footer__text,
+	.footer__phone {
+		margin-bottom: 25px;
+	}
+	.footer__logo {
+		margin-top: 25px;
+	}
+	.footer__phone-text {
+		text-align: center;
+	}
 }
 
 @media all and (max-width: 992px) {
@@ -514,6 +531,19 @@
 
 	.reviews__link-button::after {
 		display: none;
+	}
+
+	.footer__text {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+	}
+	.footer__text a {
+		margin-bottom: 10px;
+	}
+	.footer__text a + a {
+		margin-left: 0;
 	}
 }
 
