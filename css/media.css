@@ -68,7 +68,6 @@
 	.history__wrapper {
 		background-image: none;
 		position: relative;
-
 	}
 	.history__inner,
 	.history__text {
@@ -98,7 +97,32 @@
 		background-image: url('../images/alonso.png');
 		background-size: cover;
 	}
+
+	.composition__box {
+		max-width: 100%;
+		order: 0;
+		text-align: center;
+	}
+	.composition__item {
+		order: 1;
+	}
+	.composition__row {
+		justify-content: space-around;
+	}
 }
+
+@media all and (max-width: 1160px) {
+	.composition {
+		margin-bottom: 60px;
+	}
+	.composition__order {
+		max-width: 700px;
+		width: 100%;
+		margin-left: 0;
+		order: 2;
+	}
+}
+
 @media all and (max-width: 1053px) {
 	.top__inner-img {
 		margin-left: 40px;
@@ -385,6 +409,10 @@
 	.popular__right-title {
 		font-size: 25px;
 	}
+
+	.composition__order {
+		padding: 15px 20px 60px 25px;
+	}
 }
 
 @media all and (max-width: 582px) {
@@ -493,6 +521,13 @@
 	.vantages__title {
 		font-size: 22px;
 	}
+
+	.composition__order-text li {
+		line-height: 16px;
+	}
+	.composition__order-button a {
+		font-size: 16px;
+	}
 }
 
 @media all and (max-width: 360px) {
@@ -513,6 +548,11 @@
 		padding: 10px;
 	}
 
-	@media all and (max-width: 320px) {
-
+	.composition__order {
+		height: 340px;
 	}
+}
+
+@media all and (max-width: 320px) {
+
+}
