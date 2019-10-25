@@ -1311,6 +1311,7 @@ body {
 	transition: .2s;
 	background-color: #7eb152;
 	position: relative;
+	text-align: center;
 }
 
 .reviews__link-button::after,
